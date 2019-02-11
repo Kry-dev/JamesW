@@ -1,0 +1,9 @@
+.idea/JamesW.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+node_modules/
+package-lock.json
+.idea/
+.DS_Store
+dist/

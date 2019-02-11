@@ -1,5 +1,6 @@
-# Bootstrap 4 boilerplate with sass and gulp 4
-A Bootstrap 4.1.3 boilerplate with font-awesome, sass, gulp 4 tasks, browserSync (with hot-reloading). You can override bootstrap sass variables by placing those variables in `bootstrap-4-sass-gulp-4-boilerplate/assets/scss/_bootstrap_variable_overrides.scss`
+# Bootstrap 4 with sass and gulp 4
+A Bootstrap 4.1.3 with font-awesome, sass, gulp 4 tasks, browserSync (with hot-reloading). You can override bootstrap sass variables by placing those 
+variables in `yourdirectory/assets/scss/_custom_variables.scss`
 
 ## Pre-requisite
 - [Node.js](https://nodejs.org/en/download/ "Node Js")
@@ -13,10 +14,10 @@ Install Gulp Globally
 ## Getting started
 
 1. Clone repository:
-`git clone https://github.com/JayeshLab/bootstrap-4-sass-gulp-4-boilerplate.git`
+`git clone https://github.com/Kry-dev/JamesW.git`
 
 2. Change directory:
-`cd bootstrap-4-sass-gulp-4-boilerplate`
+`cd directory-name`
     
 3. Install all dependencies and libraries:
 `npm install`
