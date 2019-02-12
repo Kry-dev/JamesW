@@ -1,0 +1,19 @@
+// Breadcrumb {
+.breadcrumb {
+  list-style: none;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+    &::before {
+      display: inline-block; // Suppress underlining of the separator in modern browsers
+      padding-right: $breadcrumb-item-padding;
+      color: $breadcrumb-divider-color;
+      content: $breadcrumb-divider;
+      font-size: 5px;
+      vertical-align: middle;
+    }
+
+  &.active {
+    color: $breadcrumb-active-color;
+  }
+}

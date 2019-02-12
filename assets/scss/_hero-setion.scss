@@ -1,0 +1,39 @@
+// Hero section styles
+.hero{
+	background-color: $hero-section-bg;
+	background-image: url(../img/bg-lines.png);
+	background-repeat: no-repeat;
+	background-position: center right 10%;
+	background-size: 25%;
+	color: $white;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	&__title{
+		margin: 0;
+
+		span{
+			position: relative;
+			font-size: 4.375rem;
+			font-weight: bold;
+			&:after{
+				content: ".";
+				color: $success;
+			}
+			&:before{
+				content: "\f245";
+				font-family: FontAwesome;
+				color: $success;
+				font-size: 1rem;
+				position: absolute;
+				right: .75rem;
+				bottom: -.25rem;
+				-webkit-transform:rotateY(180deg);
+				-moz-transform:rotateY(180deg);
+				-o-transform:rotateY(180deg);
+				-ms-transform:rotateY(180deg)
+			}
+		}
+
+	}
+}

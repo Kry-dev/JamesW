@@ -1,1 +1,41 @@
 // Layout Style
+body{
+	font-size: 16px;
+	width: 100%;
+	height: 100%;
+}
+.section{
+	padding: 4rem 0;
+}
+.header{
+	height: 130px;
+	min-height: 20vh;
+
+}
+.hero{
+	min-height: 80vh;
+}
+p{
+	margin-bottom: 1rem;
+	color: $cyan;
+	a{
+		text-decoration: underline;
+	}
+	&.lead{
+		color: $text-color;
+	}
+}
+
+.bg-purple{
+	background-color: $purple;
+}
+
+.footer{
+	width: 100%;
+	background-color: $success;
+	color: $white;
+	padding: 4rem 0;
+	a{
+		color: $white;
+	}
+}

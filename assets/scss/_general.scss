@@ -1,1 +1,39 @@
 // General Style
+.blockquote-text{
+	position: relative;
+
+	&:before {
+		content: '“';
+		display: block;
+		width: 50px;
+		height: 50px;
+		font-size: 3rem;
+		vertical-align: middle;
+		background-color: #6414dd;
+		color: $white;
+		border-radius: 50%;
+		position: absolute;
+		left: -50px;
+		top: -10px;
+	}
+	&:after{
+		content: '"';
+		display: block;
+		width: 25px;
+		height: 25px;
+		font-size: 1.5rem;
+		vertical-align: middle;
+		background-color: $success;
+		color: $white;
+		border-radius: 50%;
+		position: absolute;
+		right: -35px;
+		bottom: 3px;
+	}
+
+}
+.blockquote-footer {
+	&::before {
+		content: "";
+	}
+}

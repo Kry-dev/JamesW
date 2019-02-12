@@ -1,5 +1,5 @@
 // Custom bootstrap variable overrides
-@import "custom_variables";
+@import "bootstrap_custom_variables";
 
 // Bootstrap and its default variables
 @import "bootstrap/bootstrap";
@@ -10,3 +10,7 @@
 @import "general";
 @import "layout";
 @import "module";
+@import "header";
+@import "buttons";
+@import "hero-setion";
+@import "breadcrumb";
