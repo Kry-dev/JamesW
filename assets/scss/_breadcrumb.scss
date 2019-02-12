@@ -1,6 +1,9 @@
 // Breadcrumb {
 .breadcrumb {
   list-style: none;
+  @include media-breakpoint-down(sm){
+    display: none;
+  }
 }
 
 .breadcrumb-item + .breadcrumb-item {

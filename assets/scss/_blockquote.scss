@@ -1,0 +1,15 @@
+.blockquote{
+	&-text{
+		@include media-breakpoint-down(sm){
+			font-size: 1rem;
+			font-weight: normal;
+			p{
+				font-size: 1rem;}
+		}
+	}
+	&-footer{
+		@include media-breakpoint-down(sm){
+			font-weight: bold;
+		}
+	}
+}

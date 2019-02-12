@@ -4,13 +4,28 @@ body{
 	width: 100%;
 	height: 100%;
 }
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
 .section{
 	padding: 4rem 0;
+	@include media-breakpoint-down(sm){
+		padding: 2rem 0;
+	}
 }
 .header{
 	height: 130px;
 	min-height: 20vh;
-
+	@include media-breakpoint-down(sm){
+		height: 100px;
+		min-height: 100px;
+	}
+	@include media-breakpoint-down(xs){
+		height: 80px;
+		min-height: 80px;
+	}
 }
 .hero{
 	min-height: 80vh;
@@ -37,5 +52,8 @@ p{
 	padding: 4rem 0;
 	a{
 		color: $white;
+	}
+	@include media-breakpoint-down(sm){
+		padding: 2rem 0;
 	}
 }
